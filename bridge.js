@@ -39,13 +39,13 @@ location: [20, -15]
 
 */
 
-// bridge list array
+bridge list array
 let brdigeList = [
 {name: 'Verrazano-Narrows Bridge', City: 'New York, NY', span: '1298.4', location: [ 40.6066, -74.0447]}
 {name: 'Golden Gate Bridge', City: 'San Francisco and Marin, CA', span: '1280.2', location: [37.8199,-122.4793]}
-{name: 'Mackinac Bridge', City: 'Mackinaw and St Ignace, MI', span: '', location: [ , ]}
-{name: 'George Washington', City: 'New York, NY and New Jersey', span: '', location: [ , ]}
-{name: 'Tacoma Narrows Bridge', City: 'Tacoma and Kitsap, WA', span: '', location: [ , ]}
+{name: 'Mackinac Bridge', City: 'Mackinaw and St Ignace, MI', span: '1158', location: [45.8174,-84.7278]}
+{name: 'George Washington', City: 'New York, NY and New Jersey', span: '1067.0', location: [40.8517,-73.9527]}
+{name: 'Tacoma Narrows Bridge', City: 'Tacoma and Kitsap, WA', span: '853.44', location: [47.2690,-122.5517]}
 
 ]
 
