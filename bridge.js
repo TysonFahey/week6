@@ -47,11 +47,19 @@ let bridgeList = [
   },
 ];
 
+// todo change color of icon longest bridge
+let greenIcon = L.icon({
+  iconUrl: 'bridge.png',
+  iconSize: [40, 70],
+
+})
+
 bridgeList.forEach(function (bridgeObject) {
   // draw a marker for each bridge
   // save what you want to see in the pop up
   let markerText = `${bridgeObject.name}`;
-  L.marker(bridgeObject.location).bindPopup(markerText).addTo(map);
+  L.marker(bridgeObject.location, {icon: greenIcon}).bindPopup(markerText).addTo(map);
 });
 
-// todo change color of icon longest bridge
+
+
