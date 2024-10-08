@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Longest Bridges in America</title>
 
-<!-- Leaflet resources start-->
-<!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-    crossorigin=""/>
+    <!-- Leaflet resources start-->
+    <!-- Leaflet CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
 
     <!-- Leaflet JS used to draw the map and make it interactive-->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-    crossorigin=""></script>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
     <!-- End leaflet resources-->
 
-    <link rel="stylesheet" href="styles.css" type="text/css">
+
+    <link rel="stylesheet" href="styles.css" type="text/css" />
 
     <!-- Make sure to add async defer so the script waits until the page has loaded-->
     <script async defer src="bridge.js"></script>
-
-    
-</head>
-<body>
+  </head>
+  <body>
     <!-- Goals: 
                 Draw map of US using LeafletJS
                 Make sure it looks appealing and the map is an appropriate size
 
                 Use data from assignment to draw one bridge icon for each 5 bridges-->
 
-
     <h1>Map of the longest bridges in the US</h1>
 
     <!-- Empty div element. LeafletJS will draw the map inside of it -->
-     <!-- By default the div a div is 0 pixels tall and as wide as the page. Use CSS to set height and width-->
+    <!-- By default the div a div is 0 pixels tall and as wide as the page. Use CSS to set height and width-->
     <div id="bridge-map"></div>
 
-
-</body>
+  </body>
 </html>
